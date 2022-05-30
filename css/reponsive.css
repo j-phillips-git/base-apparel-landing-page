@@ -1,0 +1,64 @@
+@media  screen and (min-width: 950px) {
+  body {
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo {
+    position: absolute;
+    top: 75px;
+    left: 165px;
+    width: 158px;
+    margin: initial;
+    height: 33px;
+  }
+
+  .hero-container {
+    position: relative;
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .hero-content {margin-top: 176px;}
+
+  .hero-img {
+    background-image: url('../images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: initial;
+    height: 100vh;
+    width: 610px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 17.3px;
+    line-height: 64px;
+  }
+
+  .sub-header {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+
+  .input-email {font-size: 1rem;}
+
+  .submit-email {
+    width: 108px;
+    height: 56px;
+  }
+
+  #exclamation {
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 120px;
+  }
+  
+  #emailError {
+    display: none;
+    color: var(--clr-light-pink);
+    margin: 10px 0 0 20px;
+  }
+}

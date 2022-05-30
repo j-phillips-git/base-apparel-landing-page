@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Base Apparel</title>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- EXTERNAL STYLES -->
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/reponsive.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+
+  <main>
+    <img class="logo" src="./images/logo.svg" alt="pink circle base apparel">
+    <div class="hero-container">
+      <div class="hero-img"></div>
+
+      <div class="hero-content">
+        <header>
+          <h1><span>We're</span> <br> coming <br> soon</h1>
+          <p class="sub-header">
+            Hello fellow shoppers! We're currently building our new fashion store.
+            Add your email below to stay up-to-date with announcements and our launch deals.
+          </p>
+        </header>
+
+        <form id="form" class="email-sign-up" action="/" method="get">
+          <label for="email"></label>
+          <input class="input-email" type="email" name="email" id="emailInput" placeholder="Email Address">
+          <button class="submit-email" id="submitEmail" type="submit">
+            <img src="./images/icon-arrow.svg" alt="right arrow">
+          </button>
+          <img id="exclamation" src="./images/icon-error.svg" alt="dark pink circle with exclamation mark"></img>
+        </form>
+        <div id="emailError">Please provide a valid email</div>
+      </div>
+
+    </div>
+  </main>
+</body>
+
+</html>

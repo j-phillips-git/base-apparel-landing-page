@@ -1,0 +1,39 @@
+:root {
+  --clr-dark-brown: #423A3A;
+  --clr-dark-pink: #CE9898;
+  --clr-light-pink: #EE8B8B;
+  --clr-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--clr-dark-pink);
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.email-sign-up:focus-within {
+  border: 2px solid var(--clr-light-pink);
+}
+
+.submit-email:focus {
+  outline: none;
+  border: 1px solid var(--clr-light-pink);
+}
